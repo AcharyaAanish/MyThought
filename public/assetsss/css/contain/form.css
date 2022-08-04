@@ -1,0 +1,74 @@
+
+    .contain .contents .row .col-md-12 .card .card-body .form .row{
+        display: flex;
+        flex-wrap: wrap;
+        margin-right:-15px;
+        margin-left:-15px;
+    }
+    .card .card-body .row .form-label{
+        padding: 17px 5px 0 0;
+        text-align:center;
+        margin-bottom: 0;
+        font-weight: 500;
+    }
+    .col-sm-10{
+        position: relative;
+        width:100%;
+        min-height:1px;
+        padding-right: 15px;
+        padding-left:15px;
+    }
+    .card .card-body  .form-group{
+        margin: 8px 0 0;
+        padding-bottom: 10px;
+        position: relative;
+
+    }
+    .card .card-body .input-image{
+        /* background: no-repeat bottom , 50% calc(100%- 1px);
+        background-size: 0 100% 100% 100%;
+        border:0px;
+        display: block;
+        width:100%;
+        padding : .4375rem 0;
+        background-image: linear-gradient(0deg,#9c27b0 2px,rgba(156,39,176,0) 0),linear-gradient(
+0deg
+,#d2d2d2 1px,hsla(0,0%,82%,0) 0); */
+    }
+/* Customize upload button for the file-input */
+
+    /* .card .card-body .input-image .upload-btn{
+        float:inline-start;
+        border: none;
+        height: 30px;
+        background-color: rgba(69, 248, 69, 0.924);
+    } */
+
+   .card .card-body .form-control{
+        background: no-repeat bottom , 50% calc(100%- 1px);
+        background-size: 0 100% 100% 100%;
+        border:none;
+        display: block;
+        width:100%;
+        outline: 0;
+        padding : .4375rem 0;
+        background-image: linear-gradient(0deg,#383439 2px,rgba(46, 44, 46, 0) 0),linear-gradient(0deg
+,#b91b1b 1px,hsla(0,0%,82%,0) 0);
+
+    }
+
+.card .card-footer{
+    padding: 10px 0px 0px;
+    margin: 0 15px 20px;
+    border-radius: 0;
+    justify-content: center;
+    align-items: center;
+    border:0;
+    display: flex;
+   background-color:transparent;
+
+}
+.btn-submit{
+    background-color: rgba(115, 74, 95, 0.897);
+}
+
